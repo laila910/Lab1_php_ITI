@@ -15,7 +15,7 @@
   ![img](img/loopsOutput.png)
 
 #   Your brother is 10 years old, If you know that :
->   age less than 5 --> Print Msg --> Stay at home,
+  age less than 5 --> Print Msg --> Stay at home,
     age equal 5 --> Print Msg --> Go to Kindergarden,
     age between 6 & 12 --> Print Msg --> Go to grade :XXX
     (Use switch case).
