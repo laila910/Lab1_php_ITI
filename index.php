@@ -167,25 +167,15 @@ foreach( $array as $value ) {
 //     age equal 5 --> Print Msg --> Go to Kindergarden,
 //     age between 6 & 12 --> Print Msg --> Go to grade :XXX
 //     (Use switch case).
-$age=10;
+$age=4;
 switch($age){
-    case  0:
-    case 1:
-    case 2: 
-    case 3:
-    case 4: 
+    case  in_array($age,range(0,4)):
         echo "Stay at home";
         break;
     case 5: 
         echo "Go to Kindergarden";
         break;
-    case 6:
-    case 7:
-    case 8:
-    case 9:
-    case 10:
-    case 11:
-    case 12:
+    case in_array($age,range(6,12)):
         echo "Go to grade :XXX";
         break;
 }
